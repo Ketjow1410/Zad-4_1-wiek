@@ -67,7 +67,7 @@ return age;
 return date;
     }
     
-  public static void exercise1() throws IOException, WrongStudentName,WrongStudentAge{
+  public static void exercise1() throws IOException, WrongStudentName,WrongStudentAge,WrongStudentDate{
         var name = ReadName();
        var age = ReadAge();
         var date = ReadDate();
